@@ -1,0 +1,17 @@
+# Site settings
+title: Geek for Brains
+email: gavin@geekforbrains.com
+description: >
+  Hi, my names Gavin. I've been writing code for the better part of 10 years. 
+  I co-founded Postach.io and QuoteRobot. When I'm not in front of my laptop, 
+  you can probably find me adventuring in the outdoors.
+baseurl: ""
+url: "http://geekforbrains.com"
+author: "Gavin Vickery"
+twitter_url: "http://twitter.com/geekforbrains"
+github_url: "http://github.com/geekforbrains"
+disqus: geekforbrains
+google_analytics: xxx
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="post-container post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-date">
+      Published 
+      <time datetime="{{ page.date | date: "%b %-d, %Y" }}">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      <strong>by {{ site.author }}</strong>
+    </p>
+  </header>
+
+  <div class="post-content clearfix">
+    {{ content }}
+  </div>
+
+    <footer class="post-footer clearfix">
+      <div class="share">
+        <a class="icon-twitter" href="http://twitter.com/share?text={{ post.title }}&url={{ post.permalink }}"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter"></i>
+          <span class="hidden">Twitter</span>
+        </a>
+
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ post.permalink }}"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook"></i>
+          <span class="hidden">Facebook</span>
+        </a>
+
+        <a class="icon-google-plus" href="https://plus.google.com/share?url={{ post.permalink }}"
+          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus"></i>
+          <span class="hidden">Google+</span>
+        </a>
+      </div>
+    </footer>
+
+    <section class="comments">
+      <hr class="large" />
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+      var disqus_shortname = '{{ site.disqus }}';
+      var disqus_url = '{{ post.url | prepend: site.baseurl }}'
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      </script>
+      <noscript>
+        Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+      </noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+</article>

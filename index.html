@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ site.title }}</h1>
+<p class="blog-description site-bio">
+  Hi, my names Gavin. I've been writing <a href="{{ site.github_url }}" target="_blank">code</a> 
+  for the better part of 10 years. I co-founded <a href="http://postach.io" target="_blank">Postach.io</a> and <a href="https://quoterobot.com" target="_blank">QuoteRobot</a>. When I'm not in front of my laptop, 
+  you can probably find me adventuring in the outdoors.
+</p>
+
+<ol class="post-list">
+  {% for post in site.posts %}
+    <li class="post-stub post">
+      <a class="js-ajax-link"  title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">
+        <h4 class="post-stub-title">{{ post.title | truncatewords: 12 }}</h4>
+        <time class="post-stub-date" datetime="{{ post.date | date: "%b %-d, %Y" }}">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </time>
+      </a>
+    </li>
+  {% endfor %}
+</ol>
+
+<div class="post-navigation">
+  <nav class="pagination" role="navigation">
+    {% if paginator.previous_page %}
+      <a class="newer-posts" href="{{ paginator.previous_page_path }}">&larr; Newer Posts</a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="older-posts" href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+    {% endif %}
+  </nav>
+</div>
