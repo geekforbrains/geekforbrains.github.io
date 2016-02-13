@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Merging Local & Server Collections In Meteor JS"
-date:   2015-06-23
+title: "Merging Local & Server Collections In Meteor JS"
+date: 2015-06-23
 permalink: /post/merging-local-server-collections-in-meteor-js
 ---
 
