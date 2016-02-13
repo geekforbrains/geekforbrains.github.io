@@ -11,7 +11,7 @@ author: "Gavin Vickery"
 twitter_url: "http://twitter.com/geekforbrains"
 github_url: "http://github.com/geekforbrains"
 disqus: geekforbrains
-google_analytics: xxx
+google_analytics: UA-1128393-15
 
 # Build settings
 markdown: kramdown
