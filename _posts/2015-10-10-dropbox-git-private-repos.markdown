@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to use Dropbox and Git for private repos"
-date:   2015-10-10 11:08:00 -0800
+date:   2015-10-10
 permalink: /post/how-to-use-dropbox-and-git-for-private-repos
 ---
 
