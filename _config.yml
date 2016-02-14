@@ -14,6 +14,9 @@ instagram_url: "https://www.instagram.com/geekforbrains/"
 linkedin_url: "https://ca.linkedin.com/in/geekforbrains"
 disqus: geekforbrains
 google_analytics: UA-1128393-15
+paginate: 8
+paginate_path: "/posts/:num"
 
 # Build settings
+gems: [jekyll-paginate]
 markdown: kramdown
