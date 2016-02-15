@@ -3,6 +3,7 @@ layout: post
 title: "A nerds guide on using Evernote effectively"
 date: 2014-01-16
 permalink: /post/a-nerds-guide-on-using-evernote-effectively 
+redirect_from: /permalink/fc7e59c5a4
 ---
 
 I love Evernote. So much that I store everything from my bookmarks using Evernote Clipper, code snippets I regularly use in my programs to my wedding plans and favourite recipes.
