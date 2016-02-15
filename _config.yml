@@ -18,5 +18,5 @@ paginate: 8
 paginate_path: "/posts/:num"
 
 # Build settings
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-redirect-from]
 markdown: kramdown
