@@ -3,6 +3,7 @@ layout: post
 title: "How to fix the \"decoder jpeg not available\" error when using PIL in Python"
 date: 2013-02-26
 permalink: /post/how-to-fix-the-decoder-jpeg-not-available-error-when-using-pil-in-python
+redirect_from: /permalink/8cf87614ea/
 ---
 
 In my experience, [PIL] can be finicky if you don't have everything just right. 

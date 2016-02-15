@@ -3,6 +3,7 @@ layout: post
 title: "How to install lxml for Python using Homebrew and PIP in 3 steps"
 date: 2013-10-24
 permalink: /post/how-to-install-lxml-for-python-using-homebrew-and-pip-in-3-steps
+redirect_from: /permalink/ee94906a15/
 ---
 
 Installing _lxml_ can be a pain in the ass. Just running the _pip install_ 

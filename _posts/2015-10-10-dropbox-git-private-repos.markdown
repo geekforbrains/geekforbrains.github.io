@@ -3,6 +3,7 @@ layout: post
 title: "How to use Dropbox and Git for private repos"
 date: 2015-10-10
 permalink: /post/how-to-use-dropbox-and-git-for-private-repos
+redirect_from: /permalink/1d4d71d05d/
 ---
 
 I love GitHub, especially for open source and team projects. However, sometimes I want to develop an app personally, but don’t want to release it as open source and don’t want to pay for GitHub premium. What to do?

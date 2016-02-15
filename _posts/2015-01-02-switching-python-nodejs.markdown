@@ -3,6 +3,7 @@ layout: post
 title: "Why I’m switching from Python to Node.js"
 date: 2015-01-02
 permalink: /post/why-im-switching-from-python-to-node-js 
+redirect_from: /permalink/f62321621f/
 ---
 
 Old news right? Who isn’t switching to Node these days? It seems like the new kid on the block is converting devs by the masses. I’m one of them, and here’s why.

@@ -3,6 +3,7 @@ layout: post
 title: "Adventures of rewriting my blog in Flask"
 date: 2012-08-26
 permalink: /post/adventures-of-rewriting-my-blog-in-flask
+redirect_from: /permalink/bd0058a940/
 ---
 
 __NOTE:__ This post is no longer relevant. I'm now using GitHub Pages and Jekyll 

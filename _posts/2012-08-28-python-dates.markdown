@@ -3,6 +3,7 @@ layout: post
 title: "Getting to grips with Python dates"
 date: 2012-08-28
 permalink: /post/getting-to-grips-with-python-dates
+redirect_from: /permalink/94e6847967/
 ---
 
 I don't know if its because I picked up PHP first, but learning to work with 

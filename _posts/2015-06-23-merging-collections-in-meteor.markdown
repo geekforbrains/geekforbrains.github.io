@@ -3,6 +3,7 @@ layout: post
 title: "Merging Local & Server Collections In Meteor JS"
 date: 2015-06-23
 permalink: /post/merging-local-server-collections-in-meteor-js
+redirect_from: /permalink/e77252dde8/
 ---
 
 Up to this point, you’ve been working with Meteor and its collections with ease. Publish here, subscribe there. Then it happens. The app you’re working on has a combination of local (client) and server related collection data that needs to be displayed in a merged list within your template. Now what?

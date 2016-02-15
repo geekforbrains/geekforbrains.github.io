@@ -3,6 +3,7 @@ layout: post
 title: "Setting the default encoding in Python"
 date: 2012-11-12
 permalink: /post/setting-the-default-encoding-in-python
+redirect_from: /permalink/64bba52dae/
 ---
 
 I recently had to force the default encoding for one of our apps, [QuoteRobot][qbot] 
