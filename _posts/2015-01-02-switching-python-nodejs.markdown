@@ -48,5 +48,10 @@ To be clear, I still love Python. Its been good to me over the years and I’ve 
 
 What are your thoughts on modern day languages? Do you still prefer Python or others? Why? Any Node “gotchas” you can share?
 
+UPDATE:
+
+I finally wrote a follow-up post to this one: [After a year of using NodeJS in production][article]
+
 [postachio]: http://postach.io
 [qbot]: https://quoterobot.com
+[article]: /post/after-a-year-of-nodejs-in-production
