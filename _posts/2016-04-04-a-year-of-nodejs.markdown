@@ -10,7 +10,7 @@ Node.js"][article] post. I wrote it just over a year ago in response to my
 frustrations with Python and why I was going to try Node instead.
 
 Fast-forward a year of in-house CLI tools, client projects and updates to our 
-companies products and this is what I've learned. Not only about Node, but
+company's products and this is what I've learned. Not only about Node, but
 Javascript in general as well.
 
 ### Easy to learn, impossible to master
@@ -90,7 +90,7 @@ standard Javascript either. Just do a quick Google of "Javascript Coding Standar
 and you'll see what I mean. 
 
 I realize that many languages don't have a strict structure, but they DO usually
-have a standard guidline created by the actual maintainers of the language. 
+have a standard guideline created by the actual maintainers of the language. 
 
 The only one I thought was any good for Javascript is written by [Mozilla][mozilla].
 
