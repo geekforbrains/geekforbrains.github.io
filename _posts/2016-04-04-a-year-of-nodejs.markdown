@@ -119,7 +119,7 @@ major parts of our web products and API's using Python. Mainly in Flask or Djang
 using either Postgres or MongoDb. 
 
 Its stood the test of time, has some great standards, libraries, its easy to 
-debug and performance very well. Sure it has its worts. Everything does when you 
+debug and performs very well. Sure it has its worts. Everything does when you 
 start writing in it. For some reason Node managed to catch my eye and draw me in. 
 I don't regret trying to embrace it, but I do feel like I wasted more time than 
 I should have.
