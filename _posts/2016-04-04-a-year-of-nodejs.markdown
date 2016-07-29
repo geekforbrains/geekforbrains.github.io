@@ -9,8 +9,7 @@ This is a follow-up to my original ["Why I’m switching from Python to
 Node.js"][article] post. I wrote it just over a year ago in response to my
 frustrations with Python and why I was going to try Node instead.
 
-Fast-forward a year of in-house CLI tools, client projects and updates to our 
-company's products and this is what I've learned. Not only about Node, but
+Fast-forward a year of in-house CLI tools, client projects and updates to [our company's][inputlogic] products and this is what I've learned. Not only about Node, but
 Javascript in general as well.
 
 ### Easy to learn, impossible to master
@@ -134,3 +133,4 @@ up switching back to a more comfortable language?
 [async]: https://github.com/caolan/async
 [mozilla]: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style
 [qbot]: https://quoterobot.com/
+[inputlogic]: http://inputlogic.ca
