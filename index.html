@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<h1 class="page-title">{{ site.title }}</h1>
+<h1 class="page-title">{{ site.author }}</h1>
+
 <p class="blog-description site-bio">
-  Hi, my names Gavin. I've been writing <a href="{{ site.github_url }}" target="_blank">code</a> 
-  for over a decade <em>(yikes)</em>. I co-founded 
-  <a href="http://inputlogic.ca" target="_blank">Input Logic</a>, 
-  <a href="http://postach.io" target="_blank">Postach.io</a> and 
-  <a href="https://quoterobot.com" target="_blank">QuoteRobot</a>. When I'm not 
-  programming, you'll find me spending time with my wife and two kids, playing 
+  Hi, my names Gavin. I've been writing <a href="{{ site.github_url }}" target="_blank">code</a>
+  profesionally for over a decade <em>(yikes)</em>. When I'm not
+  programming, you'll find me spending time with my wife and three kids, playing
   board games or home brewing. Occasionally found outdoors.
 </p>
 
 <ol class="post-list">
-{% for post in paginator.posts %}
+  {% for post in paginator.posts %}
     <li class="post-stub post">
       <a class="js-ajax-link"  title="{{ post.title }}" href="{{ post.url | prepend: site.baseurl }}">
         <h4 class="post-stub-title">{{ post.title | truncatewords: 12 }}</h4>
